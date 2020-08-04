@@ -6,4 +6,7 @@ setInterval(function(){
   console.log("Color Changed")
 },3000)
 
-
+function showImage(){
+  var image= document.getElementById("pog")
+  image.style.display="block"
+}
